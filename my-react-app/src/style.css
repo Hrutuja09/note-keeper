@@ -4,6 +4,7 @@ body{
 .container{
     background-color: yellowgreen;
     height: 80px;
+    box-shadow: 0 2px 5px #ccc;
 }
 #head{
     font-size: 50px;
@@ -45,3 +46,54 @@ body{
     box-shadow: 0 2px 5px #ccc;
 
 }
+.note1{
+    background-color: #fff;
+    width: 500px;
+    height: 130px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px #ccc;
+}
+
+form input,
+form textarea {
+  width: 480px;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  resize: none;
+}
+.note1 form{
+    position: relative;
+    outline:none;
+    border:none;
+    
+}
+.note1 button{
+    position: absolute;
+    right: 18px;
+    bottom: -70px;
+    background: yellowgreen;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+}
+
+.delete{
+    position: absolute;
+    left: 350px;
+    bottom:270px;
+    color:yellowgreen;
+    background-color: #fff;
+    border: none;
+    width: 48px;
+    height: 36px;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: bold;
+    
+}
+
