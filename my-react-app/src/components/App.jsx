@@ -32,7 +32,7 @@ function App() {
             id={index}
             title={noteItem.title}
             content={noteItem.content}
-            ondelete={DeleteNode}
+            onDelete={DeleteNode}
           />
         );
       })}
